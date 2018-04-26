@@ -1,0 +1,10 @@
+/home/snezhnyy/Documents/sharp/vasya_bot/bin/Debug/netcoreapp2.0/vasya_bot.deps.json
+/home/snezhnyy/Documents/sharp/vasya_bot/bin/Debug/netcoreapp2.0/vasya_bot.runtimeconfig.json
+/home/snezhnyy/Documents/sharp/vasya_bot/bin/Debug/netcoreapp2.0/vasya_bot.runtimeconfig.dev.json
+/home/snezhnyy/Documents/sharp/vasya_bot/bin/Debug/netcoreapp2.0/vasya_bot.dll
+/home/snezhnyy/Documents/sharp/vasya_bot/bin/Debug/netcoreapp2.0/vasya_bot.pdb
+/home/snezhnyy/Documents/sharp/vasya_bot/obj/Debug/netcoreapp2.0/vasya_bot.csproj.CoreCompileInputs.cache
+/home/snezhnyy/Documents/sharp/vasya_bot/obj/Debug/netcoreapp2.0/vasya_bot.AssemblyInfoInputs.cache
+/home/snezhnyy/Documents/sharp/vasya_bot/obj/Debug/netcoreapp2.0/vasya_bot.AssemblyInfo.cs
+/home/snezhnyy/Documents/sharp/vasya_bot/obj/Debug/netcoreapp2.0/vasya_bot.dll
+/home/snezhnyy/Documents/sharp/vasya_bot/obj/Debug/netcoreapp2.0/vasya_bot.pdb
