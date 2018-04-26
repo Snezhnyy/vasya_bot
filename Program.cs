@@ -28,6 +28,7 @@ namespace Telegram.Bot.vasya_bot
 
             Bot.StartReceiving(Array.Empty<UpdateType>());
             Console.WriteLine($"Start listening for @{me.Username}");
+            Console.WriteLine("Press enter to exit.");
             Console.ReadLine();
             Bot.StopReceiving();
         }
@@ -42,11 +43,11 @@ namespace Telegram.Bot.vasya_bot
                 
                 default:
                     const string usage = @"
-                                        Usage:
-                                        /inline   - send inline keyboard
-                                        /keyboard - send custom keyboard
-                                        /photo    - send a photo
-                                        /request  - request location or contact";
+Usage:
+/inline   - send inline keyboard
+/keyboard - send custom keyboard
+/photo    - send a photo
+/request  - request location or contact";
 
                     await Bot.SendTextMessageAsync(
                         message.Chat.Id,
