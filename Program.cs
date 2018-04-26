@@ -1,4 +1,5 @@
 ﻿// Hello, Vasya
+
 using System;
 
 namespace vasya_bot
@@ -7,7 +8,8 @@ namespace vasya_bot
     {
         static void Main(string[] args)
         {
-            
+            Console.WriteLine("Hello world!");
+            Console.ReadKey();
         }
     }
 }
