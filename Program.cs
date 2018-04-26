@@ -20,7 +20,7 @@ namespace Telegram.Bot.vasya_bot
         private static TelegramBotClient Bot;
         static void Main(string[] args)
         {
-            Bot = new TelegramBotClient("Your API key");
+            Bot = new TelegramBotClient(ReadToken());
             var me = Bot.GetMeAsync().Result;
             Console.Title = me.Username;
 
@@ -54,6 +54,11 @@ namespace Telegram.Bot.vasya_bot
                         replyMarkup: new ReplyKeyboardRemove());
                     break;
             }
-}
+        }
+
+        private static string ReadToken()
+        {
+            return JsonConvert.DeserializeObject<Dictionary<string, string>>(File.ReadAllText("bot_passport.json"))["token"];
+        }
     }
 }
