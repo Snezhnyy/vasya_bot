@@ -1,9 +1,16 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
+<<<<<<< HEAD
       "/home/snezhnyy/.dotnet/store/|arch|/|tfm|",
       "/home/snezhnyy/.nuget/packages",
       "/home/snezhnyy/Documents/programs/dotnet-sdk-2.1.105-linux-x64/sdk/NuGetFallbackFolder"
+=======
+      "C:\\Users\\Nika\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Nika\\.nuget\\packages",
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+>>>>>>> aef8af40eeafdcb8db2f046cb30142e71111b171
     ]
   }
 }

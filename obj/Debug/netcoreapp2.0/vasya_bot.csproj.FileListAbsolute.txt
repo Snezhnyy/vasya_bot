@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /home/snezhnyy/Documents/sharp/vasya_bot/bin/Debug/netcoreapp2.0/vasya_bot.deps.json
 /home/snezhnyy/Documents/sharp/vasya_bot/bin/Debug/netcoreapp2.0/vasya_bot.runtimeconfig.json
 /home/snezhnyy/Documents/sharp/vasya_bot/bin/Debug/netcoreapp2.0/vasya_bot.runtimeconfig.dev.json
@@ -8,3 +9,16 @@
 /home/snezhnyy/Documents/sharp/vasya_bot/obj/Debug/netcoreapp2.0/vasya_bot.AssemblyInfo.cs
 /home/snezhnyy/Documents/sharp/vasya_bot/obj/Debug/netcoreapp2.0/vasya_bot.dll
 /home/snezhnyy/Documents/sharp/vasya_bot/obj/Debug/netcoreapp2.0/vasya_bot.pdb
+=======
+C:\Users\Nika\source\RepoMain\vasya_bot\bin\Debug\netcoreapp2.0\vasya_bot.deps.json
+C:\Users\Nika\source\RepoMain\vasya_bot\bin\Debug\netcoreapp2.0\vasya_bot.runtimeconfig.json
+C:\Users\Nika\source\RepoMain\vasya_bot\bin\Debug\netcoreapp2.0\vasya_bot.runtimeconfig.dev.json
+C:\Users\Nika\source\RepoMain\vasya_bot\bin\Debug\netcoreapp2.0\vasya_bot.dll
+C:\Users\Nika\source\RepoMain\vasya_bot\bin\Debug\netcoreapp2.0\vasya_bot.pdb
+C:\Users\Nika\source\RepoMain\vasya_bot\obj\Debug\netcoreapp2.0\vasya_bot.csprojResolveAssemblyReference.cache
+C:\Users\Nika\source\RepoMain\vasya_bot\obj\Debug\netcoreapp2.0\vasya_bot.csproj.CoreCompileInputs.cache
+C:\Users\Nika\source\RepoMain\vasya_bot\obj\Debug\netcoreapp2.0\vasya_bot.AssemblyInfoInputs.cache
+C:\Users\Nika\source\RepoMain\vasya_bot\obj\Debug\netcoreapp2.0\vasya_bot.AssemblyInfo.cs
+C:\Users\Nika\source\RepoMain\vasya_bot\obj\Debug\netcoreapp2.0\vasya_bot.dll
+C:\Users\Nika\source\RepoMain\vasya_bot\obj\Debug\netcoreapp2.0\vasya_bot.pdb
+>>>>>>> aef8af40eeafdcb8db2f046cb30142e71111b171
