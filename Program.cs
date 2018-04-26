@@ -37,24 +37,24 @@ namespace Telegram.Bot.vasya_bot
         {
             var message = messageEventArgs.Message;
             if (message == null || message.Type != MessageType.TextMessage) return;
-            switch (message.Text.Split(' ').First())
+            string answer = "";
+            switch (message.Text)
             {
                 // send inline keyboard
                 
                 default:
-                    const string usage = @"
+                    answer = @"
 Usage:
 /inline   - send inline keyboard
 /keyboard - send custom keyboard
 /photo    - send a photo
 /request  - request location or contact";
-
-                    await Bot.SendTextMessageAsync(
-                        message.Chat.Id,
-                        usage,
-                        replyMarkup: new ReplyKeyboardRemove());
                     break;
             }
+            await Bot.SendTextMessageAsync(
+                        message.Chat.Id,
+                        answer,
+                        replyMarkup: new ReplyKeyboardRemove());
         }
 
         private static string ReadToken()
